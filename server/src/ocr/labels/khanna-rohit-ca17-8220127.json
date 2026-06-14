@@ -1,0 +1,28 @@
+{
+  "fixture": "khanna-rohit-ca17-8220127.pdf",
+  "filing": {
+    "filer_name": "Rohit Khanna",
+    "filing_date": "02/05/2024",
+    "chamber": "house"
+  },
+  "pages_labeled": "2 of 22",
+  "transactions": [
+    { "owner": "dependent_child", "asset_name": "Hedge Fund Select: ELT Associates LLC Commitment", "ticker": null, "asset_type": "other", "transaction_type": "P", "transaction_date": "01/01/2024", "notification_date": "02/02/2024", "amount_label": null, "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "PFIZER INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/31/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "CARTER'S, INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "S_partial", "transaction_date": "01/17/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "MICROSOFT CORPORATION CMN", "ticker": null, "asset_type": "stock", "transaction_type": "S", "transaction_date": "01/31/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "BAXTER INTERNATIONAL INC CMN", "ticker": null, "asset_type": "stock", "transaction_type": "S_partial", "transaction_date": "01/08/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "GENERAL MOTORS COMPANY CMN", "ticker": null, "asset_type": "stock", "transaction_type": "S_partial", "transaction_date": "01/29/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "BANK OF AMERICA CORP CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "VISA INC. CMN CLASS A", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "UBER TECHNOLOGIES, INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "COCA-COLA COMPANY (THE) CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "BRISTOL-MYERS SQUIBB COMPANY CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "LOWES COMPANIES INC CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "JOHNSON & JOHNSON CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "TEXAS INSTRUMENTS INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "MC DONALDS CORP CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "MARSH & MCLENNAN CO INC CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "01/10/2024", "notification_date": "02/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false }
+  ],
+  "notes": "PARTIAL: page 2 of 22 only. Typed; dependent-child trust accounts (owner=DC). Sales on this page: Carter's, Baxter, GM have the Partial box checked (S_partial, human-verified); Microsoft is a plain Sale (S). The other type mark on these rows is the separate 'Capital gains exceed $200' column, not Partial. Amounts: most $1,001-15k except BofA/Visa/Uber/Coca-Cola/Bristol-Myers = $15,001-50k. Row 1 (Hedge Fund commitment) amount still unread -> null (looked near the $500k-$1M column)."
+}

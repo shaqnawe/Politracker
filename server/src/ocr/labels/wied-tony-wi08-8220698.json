@@ -1,0 +1,33 @@
+{
+  "fixture": "wied-tony-wi08-8220698.pdf",
+  "filing": {
+    "filer_name": "Tony Wied",
+    "filing_date": "12/12/2024",
+    "chamber": "house"
+  },
+  "transactions": [
+    {
+      "owner": "joint",
+      "asset_name": "Fortinet Inc Common Stock",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "S",
+      "transaction_date": "11/18/2024",
+      "notification_date": "12/01/2024",
+      "amount_label": "$15,001 - $50,000",
+      "row_unreadable": false
+    },
+    {
+      "owner": "joint",
+      "asset_name": "Paycom Software Common Stock",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "S",
+      "transaction_date": "11/18/2024",
+      "notification_date": "12/01/2024",
+      "amount_label": "$15,001 - $50,000",
+      "row_unreadable": false
+    }
+  ],
+  "notes": "Typed form. Source page is rotated 0deg (others render upright at 270deg) - orientation varies per fixture."
+}

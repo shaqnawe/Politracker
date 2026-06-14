@@ -1,0 +1,14 @@
+{
+  "_note": "SYNTHETIC sample for Model A verification — NOT real statements by these or any people. Dates/tickers chosen to line up with the synthetic price fixtures so the pipeline can be smoke-tested.",
+  "figures": [
+    { "id": "sample-exec", "name": "Sample Exec", "kind": "executive", "handle": "@sampleexec" },
+    { "id": "sample-rep", "name": "Sample Rep", "kind": "politician" }
+  ],
+  "statements": [
+    { "figure_id": "sample-exec", "said_at": "2023-06-05T14:00:00Z", "source": "x", "source_url": "https://example.invalid/1", "text": "Tesla is undervalued and $AAPL keeps printing. Watching $SURGE closely." },
+    { "figure_id": "sample-exec", "said_at": "2023-06-12", "source": "x", "source_url": "https://example.invalid/2", "text": "Apple's lineup this year looks huge." },
+    { "figure_id": "sample-rep", "said_at": "2023-06-06T09:30:00Z", "source": "speech", "source_url": "https://example.invalid/3", "text": "I remain bullish on $SURGE and on Microsoft for the long run." },
+    { "figure_id": "sample-rep", "said_at": "2023-06-14", "source": "interview", "source_url": "https://example.invalid/4", "text": "$AAPL is a bellwether for the whole market." },
+    { "figure_id": "sample-rep", "said_at": "2023-06-20", "source": "press_release", "source_url": "https://example.invalid/5", "text": "The economy remains strong and resilient." }
+  ]
+}

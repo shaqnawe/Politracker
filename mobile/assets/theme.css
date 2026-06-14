@@ -1,0 +1,102 @@
+/* ============================================================
+   Congress Trading Tracker — Design Tokens
+   Dark is the default. Light mode via [data-theme="light"] on
+   <html>, or automatically via prefers-color-scheme: light.
+   ============================================================ */
+
+:root {
+  /* ---- DARK (default) ---- */
+  --bg:        #0d1117;  /* page base                         */
+  --bg-2:      #11161f;  /* secondary surface                 */
+  --panel:     #161c26;  /* cards, tables, panels             */
+  --panel-2:   #1b2230;  /* raised / hovered surface          */
+  --border:    #262d3a;  /* hairlines, dividers               */
+
+  --ink:       #e6e7ea;  /* primary text                      */
+  --ink-soft:  #aab1bd;  /* secondary text                    */
+  --ink-faint: #79828f;  /* labels, captions, disabled        */
+
+  /* Semantic accents — meaning is fixed, do not repurpose */
+  --accent:    #7ee0c1;  /* BUY  / gain / positive  (mint)    */
+  --accent-2:  #f6c177;  /* flag / warning / neutral (amber)  */
+  --accent-3:  #88b4f5;  /* link / info / interactive (blue)  */
+  --danger:    #f08a8a;  /* SELL / loss / conflict   (red)    */
+
+  --code-bg:   #0a0e14;  /* mono blocks, raw data             */
+
+  --rad: 14px;
+  --maxw: 1100px;
+
+  /* Background glows (subtle, dark only) */
+  --glow-1: radial-gradient(1200px 600px at 80% -10%, rgba(126,224,193,.06), transparent 60%);
+  --glow-2: radial-gradient(900px 500px at -10% 10%, rgba(136,180,245,.05), transparent 55%);
+
+  /* Type */
+  --font-head: "Newsreader", Georgia, serif;
+  --font-ui:   "Spline Sans", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* ---- LIGHT ---- derived from the same hue families,
+   darkened/saturated for contrast on light surfaces ---- */
+[data-theme="light"] {
+  --bg:        #f5f7fa;
+  --bg-2:      #eef1f5;
+  --panel:     #ffffff;
+  --panel-2:   #f7f9fc;
+  --border:    #d9dee6;
+
+  --ink:       #1a1f29;
+  --ink-soft:  #4b5563;
+  --ink-faint: #6e7681;
+
+  --accent:    #0f9d72;  /* BUY / gain   (deep teal-green)  */
+  --accent-2:  #b87514;  /* flag / warn  (amber)           */
+  --accent-3:  #1a64d4;  /* link / info  (blue)            */
+  --danger:    #cf3a3a;  /* SELL / loss  (red)             */
+
+  --code-bg:   #eef1f5;
+
+  /* Glows muted to near-flat in light mode */
+  --glow-1: radial-gradient(1200px 600px at 80% -10%, rgba(15,157,114,.04), transparent 60%);
+  --glow-2: radial-gradient(900px 500px at -10% 10%, rgba(26,100,212,.03), transparent 55%);
+}
+
+/* Optional: follow the OS preference when no explicit theme is set */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg:#f5f7fa; --bg-2:#eef1f5; --panel:#ffffff; --panel-2:#f7f9fc;
+    --border:#d9dee6; --ink:#1a1f29; --ink-soft:#4b5563; --ink-faint:#6e7681;
+    --accent:#0f9d72; --accent-2:#b87514; --accent-3:#1a64d4; --danger:#cf3a3a;
+    --code-bg:#eef1f5;
+    --glow-1: radial-gradient(1200px 600px at 80% -10%, rgba(15,157,114,.04), transparent 60%);
+    --glow-2: radial-gradient(900px 500px at -10% 10%, rgba(26,100,212,.03), transparent 55%);
+  }
+}
+
+/* ---- Base application of the tokens ---- */
+body {
+  margin: 0;
+  background: var(--glow-1), var(--glow-2), var(--bg);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 { font-family: var(--font-head); letter-spacing: -.01em; }
+
+/* Numbers, tickers, money, percentages — always monospace so
+   columns align in tables. This is a hard rule for this app. */
+.num, .ticker, .money, .pct, td.num, code {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Semantic helpers */
+.buy,  .gain { color: var(--accent); }
+.sell, .loss { color: var(--danger); }
+.flag        { color: var(--accent-2); }
+a, .link     { color: var(--accent-3); text-decoration: none; }
+a:hover      { text-decoration: underline; }

@@ -1,0 +1,52 @@
+{
+  "name": "politracker-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Scrapes Congress/Senate stock disclosures and serves them over a REST API",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "scrape": "tsx src/scrapers/run.ts",
+    "scrape:senate": "tsx src/scrapers/run.ts --source=senate",
+    "scrape:house": "tsx src/scrapers/run.ts --source=house",
+    "scrape:ocr": "tsx src/scrapers/run.ts --ocr",
+    "scrape:ocr:dry": "tsx src/scrapers/run.ts --ocr --dry-run",
+    "job": "tsx src/agents/run-job.ts",
+    "scheduler": "tsx src/agents/run-scheduler.ts",
+    "ocr:fetch-fixtures": "tsx scripts/fetch-ocr-fixtures.ts",
+    "ocr:eval": "tsx src/ocr/run-eval.ts",
+    "ocr:confidence": "tsx src/ocr/run-confidence.ts",
+    "ocr:preprocess": "tsx src/ocr/run-preprocess.ts",
+    "ocr:validate": "tsx src/ocr/run-validate.ts",
+    "research:selftest": "tsx src/agents/research/run-returns-selftest.ts",
+    "research:import-prices": "tsx src/agents/research/run-import-prices.ts",
+    "research:model-b": "tsx src/agents/research/run-model-b.ts",
+    "research:ingest-statements": "tsx src/agents/research/run-ingest-statements.ts",
+    "research:model-a": "tsx src/agents/research/run-model-a.ts",
+    "clean:tickers": "tsx src/scripts/clean-tickers.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.100.1",
+    "adm-zip": "^0.5.16",
+    "better-sqlite3": "^11.8.1",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "fast-xml-parser": "^4.5.1",
+    "openai": "^6.41.0",
+    "pdf-parse": "^1.1.1",
+    "pdf-to-img": "^6.1.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

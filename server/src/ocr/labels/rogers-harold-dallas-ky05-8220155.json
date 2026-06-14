@@ -1,0 +1,10 @@
+{
+  "fixture": "rogers-harold-dallas-ky05-8220155.pdf",
+  "filing": {
+    "filer_name": "Harold Dallas Rogers",
+    "filing_date": "02/20/2024",
+    "chamber": "house"
+  },
+  "transactions": [],
+  "notes": "Legitimately EMPTY PTR: handwritten 'Nothing to Report for December 2023' and 'Nothing to Report for January 2024'. Not a read failure - the correct extraction is zero transactions. Tests that the harness/validation does not flag a genuinely-empty filing as a miss."
+}

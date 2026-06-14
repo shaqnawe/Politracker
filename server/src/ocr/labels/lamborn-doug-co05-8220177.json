@@ -1,0 +1,44 @@
+{
+  "fixture": "lamborn-doug-co05-8220177.pdf",
+  "filing": {
+    "filer_name": "Douglas L. Lamborn",
+    "filing_date": "03/13/2024",
+    "chamber": "house"
+  },
+  "transactions": [
+    {
+      "owner": "spouse",
+      "asset_name": "Nest App, Inc. stock",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "S",
+      "transaction_date": "03/01/2024",
+      "notification_date": "08/01/2024",
+      "amount_label": "$1,001 - $15,000",
+      "row_unreadable": false
+    },
+    {
+      "owner": "self",
+      "asset_name": "Nest App, Inc. stock",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "S",
+      "transaction_date": "03/01/2024",
+      "notification_date": "03/01/2024",
+      "amount_label": "$1,001 - $15,000",
+      "row_unreadable": false
+    },
+    {
+      "owner": "spouse",
+      "asset_name": "Nest App, Inc. stock",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "S",
+      "transaction_date": "03/01/2024",
+      "notification_date": "03/01/2024",
+      "amount_label": "$1,001 - $15,000",
+      "row_unreadable": false
+    }
+  ],
+  "notes": "HANDWRITTEN. asset_name = 'Nest App, Inc. stock' (human-verified). STILL VERIFY: owner per row (left margin 'IRA'/'SP'; row 1 = SP confirmed), the dates (row 1 notification read as 08/01/2024), and amounts (col A). All 3 rows type=Sale."
+}

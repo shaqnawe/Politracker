@@ -1,0 +1,22 @@
+{
+  "fixture": "paulina-luna-anna-fl13-8220118.pdf",
+  "filing": {
+    "filer_name": "Anna Paulina Luna",
+    "filing_date": "01/29/2024",
+    "chamber": "house"
+  },
+  "transactions": [
+    {
+      "owner": "self",
+      "asset_name": "Lineage Cell Therapeutics Inc",
+      "ticker": null,
+      "asset_type": "stock",
+      "transaction_type": "P",
+      "transaction_date": "01/02/2024",
+      "notification_date": "01/04/2024",
+      "amount_label": "$1,001 - $15,000",
+      "row_unreadable": false
+    }
+  ],
+  "notes": "Typed form, single row, high confidence."
+}

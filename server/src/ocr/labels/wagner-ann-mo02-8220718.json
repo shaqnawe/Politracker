@@ -1,0 +1,33 @@
+{
+  "fixture": "wagner-ann-mo02-8220718.pdf",
+  "filing": {
+    "filer_name": "Ann Wagner",
+    "filing_date": "01/10/2025",
+    "chamber": "house"
+  },
+  "transactions": [
+    {
+      "owner": "joint",
+      "asset_name": "Redwood Area Schs M 5% Go Ufx Due 3/1/2030",
+      "ticker": null,
+      "asset_type": "bond",
+      "transaction_type": "P",
+      "transaction_date": "12/05/2024",
+      "notification_date": null,
+      "amount_label": "$100,001 - $250,000",
+      "row_unreadable": false
+    },
+    {
+      "owner": "joint",
+      "asset_name": "Johnson City TN 5% due 6/1/2031",
+      "ticker": null,
+      "asset_type": "bond",
+      "transaction_type": "P",
+      "transaction_date": "12/09/2024",
+      "notification_date": null,
+      "amount_label": "$100,001 - $250,000",
+      "row_unreadable": false
+    }
+  ],
+  "notes": "Typed form, municipal bonds. VERIFY: amount column read as D ($100,001-$250,000) for both; notification_date column appeared blank."
+}

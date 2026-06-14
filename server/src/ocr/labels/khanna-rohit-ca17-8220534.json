@@ -1,0 +1,29 @@
+{
+  "fixture": "khanna-rohit-ca17-8220534.pdf",
+  "filing": {
+    "filer_name": "Rohit Khanna",
+    "filing_date": "07/08/2024",
+    "chamber": "house"
+  },
+  "pages_labeled": "2 of 14",
+  "transactions": [
+    { "owner": "dependent_child", "asset_name": "BofA Finance LLC Linked to S&P 500 Index", "ticker": null, "asset_type": "other", "transaction_type": "P", "transaction_date": "06/21/2024", "notification_date": "07/02/2024", "amount_label": "$100,001 - $250,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "AMAZON.COM INC CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/07/2024", "notification_date": "07/02/2024", "amount_label": "$50,001 - $100,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "UBS AG LINKED TO S&P 500 INDEX", "ticker": null, "asset_type": "other", "transaction_type": "P", "transaction_date": "06/21/2024", "notification_date": "07/02/2024", "amount_label": "$15,001 - $50,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "DANAHER CORPORATION CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/07/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "UNITED PARCEL SERVICE, INC. CLASS B COMMON STOCK", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/07/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "AMERICAN INT'L GROUP, INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "PEPSICO, INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "CVS HEALTH CORP CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/07/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "LEAR CORPORATION CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "CATERPILLAR INC (DELAWARE) CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "LABCORP HOLDINGS INC CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "DEERE & COMPANY CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "UNION PACIFIC CORP. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "GENERAL MOTORS COMPANY CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "REGAL REXNORD CORP CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "PARKER-HANNIFIN CORP. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false },
+    { "owner": "dependent_child", "asset_name": "NASDAQ INC. CMN", "ticker": null, "asset_type": "stock", "transaction_type": "P", "transaction_date": "06/14/2024", "notification_date": "07/02/2024", "amount_label": "$1,001 - $15,000", "row_unreadable": false }
+  ],
+  "notes": "PARTIAL: page 2 of 14 only. Typed; dependent-child trust accounts (owner=DC); all purchases, notified 07/02/2024. VERIFY amount column: most read as $1,001-15k except AMAZON ($50,001-100k) and UBS S&P note ($15,001-50k); row 1 (BofA structured note) amount unreadable -> null."
+}

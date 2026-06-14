@@ -1,0 +1,58 @@
+# dependencies
+node_modules/
+
+# build output
+server/dist/
+*.tsbuildinfo
+
+# database & scraped data
+server/data/*.db
+server/data/*.db-journal
+server/data/*.db-wal
+server/data/*.db-shm
+server/data/*.db.bak*
+server/data/cache/
+
+# research price CSVs (third-party market data you supply; cached into the DB).
+# The committed synthetic fixtures under server/src/agents/research/fixtures/ are NOT ignored.
+server/data/prices/*.csv
+
+# generated analysis data reports (numbers depend on the loaded price data)
+server/data/reports/
+
+# OCR fixtures (real scanned PTR PDFs — public record, but kept out of git)
+server/src/ocr/fixtures/
+
+# OCR extraction cache (paid vision outputs, keyed by image hash)
+server/src/ocr/.cache/
+
+# Tesseract English model (5 MB binary; re-downloadable from tesseract-ocr/tessdata)
+server/eng.traineddata
+
+# graphify knowledge graph — regenerable local dev aid (`graphify update .`).
+# graph.json is ~69 MB; the whole tree is generated, so keep it out of git.
+graphify-out/
+
+# expo / react native
+mobile/.expo/
+mobile/dist/
+mobile/web-build/
+
+# native prebuild output (Expo CNG — regenerate with `npx expo prebuild`)
+mobile/ios/
+mobile/android/
+
+# Claude Code local settings (personal permissions; settings.json is committed)
+.claude/settings.local.json
+
+# env & logs
+.env
+.env.local
+*.log
+npm-debug.log*
+
+# local reference doc (not pushed)
+system-design-guide.html
+
+# os
+.DS_Store
